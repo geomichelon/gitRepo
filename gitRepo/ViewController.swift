@@ -7,11 +7,20 @@
 //
 
 import UIKit
+import RealmSwift
+import Realm
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+     let ok="olalalalalalalalaal"
+        
+        
+        print(ok);
+        
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
