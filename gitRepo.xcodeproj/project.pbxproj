@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8DB52A6A1E5A5E42002CEACF /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB52A691E5A5E42002CEACF /* menu.swift */; };
+		8DB52A6C1E5A5F07002CEACF /* intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB52A6B1E5A5F07002CEACF /* intro.swift */; };
 		8DF9EE141E590AE200AAB090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF9EE131E590AE200AAB090 /* AppDelegate.swift */; };
 		8DF9EE161E590AE200AAB090 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF9EE151E590AE200AAB090 /* ViewController.swift */; };
 		8DF9EE191E590AE200AAB090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DF9EE171E590AE200AAB090 /* Main.storyboard */; };
@@ -45,7 +45,7 @@
 		40B25884BD14A3EBF869F161 /* Pods_gitRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gitRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51768AC6D6DC53319944B74B /* Pods-gitRepoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitRepoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitRepoTests/Pods-gitRepoTests.release.xcconfig"; sourceTree = "<group>"; };
 		75B806EB0538A83CA3119648 /* Pods-gitRepoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitRepoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitRepoUITests/Pods-gitRepoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DB52A691E5A5E42002CEACF /* menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = menu.swift; path = ../menu.swift; sourceTree = "<group>"; };
+		8DB52A6B1E5A5F07002CEACF /* intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = intro.swift; sourceTree = "<group>"; };
 		8DF9EE101E590AE200AAB090 /* gitRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF9EE131E590AE200AAB090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF9EE151E590AE200AAB090 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,13 +126,13 @@
 		8DF9EE121E590AE200AAB090 /* gitRepo */ = {
 			isa = PBXGroup;
 			children = (
-				8DB52A691E5A5E42002CEACF /* menu.swift */,
 				8DF9EE131E590AE200AAB090 /* AppDelegate.swift */,
 				8DF9EE151E590AE200AAB090 /* ViewController.swift */,
 				8DF9EE171E590AE200AAB090 /* Main.storyboard */,
 				8DF9EE1A1E590AE200AAB090 /* Assets.xcassets */,
 				8DF9EE1C1E590AE200AAB090 /* LaunchScreen.storyboard */,
 				8DF9EE1F1E590AE200AAB090 /* Info.plist */,
+				8DB52A6B1E5A5F07002CEACF /* intro.swift */,
 			);
 			path = gitRepo;
 			sourceTree = "<group>";
@@ -455,7 +455,7 @@
 			files = (
 				8DF9EE161E590AE200AAB090 /* ViewController.swift in Sources */,
 				8DF9EE141E590AE200AAB090 /* AppDelegate.swift in Sources */,
-				8DB52A6A1E5A5E42002CEACF /* menu.swift in Sources */,
+				8DB52A6C1E5A5F07002CEACF /* intro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
